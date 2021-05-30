@@ -8,8 +8,8 @@ Run the main.py and login.html.
 Measure of Similarity -  Cosine similarity
 
 ## Preprocessing
-Removing punctuations
-Removing stopwords
-Build a tokenizer (dictionary with indices for each words)
-Featurize_nonpos - Word count of each word (Ordering does not matter in this case) 
+* Removing punctuations
+* Removing stopwords  (against a list siimilar to NLTK)
+* Build a tokenizer (dictionary with indices for each words)
+* Featurize_nonpos - Word count of each word (Ordering does not matter in this case) 
 (Positional information is not taken since a gap of one word can affect subsequent positions)
